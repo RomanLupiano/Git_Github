@@ -95,3 +95,32 @@ Fusiona la rama en la que estás con la rama especificada
 
 `git diff`  
 Fusiona la rama en la que estás con la rama especificada
+
+`git show`  
+Muestra los datos del último commit
+
+`git show [CodCommit]`  
+Muestra los datos del commit especificado
+
+
+
+### Stash
+
+`git stash`  
+Guarda las modificaciones del entorno de trabajo en una pila llamada Stash
+
+`git stash save "[Nombre]"`  
+Permite guardar con un nombre identificador
+
+`git stash --include-untracked`  
+Guarda los archivos modificados y los nuevos archivos sin trackear
+
+`git stash list`  
+Muestra la pila de Stash si es que tiene elementos
+
+`git stash pop`  
+Retorna el espacio de trabajo a el último stash guardado
+
+`git stash pop stash@{[NumeroID]}`  
+Retorna el espacio de trabajo a el stash con el identificador asociado
+
