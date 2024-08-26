@@ -60,3 +60,22 @@ Añade los archivos en el área de staging al área del repositorio.
 
 >git log
 Lista todos los commits
+
+>git clone [RepoURL]
+Clona un repositorio
+
+
+### Ramas
+
+`git branch`  
+Muestra todas las ramas existentes y la rama actual.
+
+`git switch [NombreRama]`  
+Cambia a la rama con el nombre especificado
+
+`git switch -c [NombreRama]`  
+Cambia a la rama con el nombre especificado, si no existe la crea
+
+`git branch -d [NombreRama]`  
+Elimina una rama
+
