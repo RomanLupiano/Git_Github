@@ -91,6 +91,12 @@ Elimina una rama
 `git merge [NombreRama]`  
 Fusiona la rama en la que estás con la rama especificada
 
+`git checkout --theirs [NombreArchivo]`  
+Si ocurre un conflicto, deja las modificaciones de la rama externa
+
+`git checkout --ours [NombreArchivo]`  
+Si ocurre un conflicto, deja las modificaciones de la rama interna
+
 
 
 `git diff`  
