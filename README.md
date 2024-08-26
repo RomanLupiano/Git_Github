@@ -38,6 +38,9 @@ Inicia el repositorio
 >git status
 Muestra el estatus del repositorio
 
+>git status -s
+Muestra una versión minimizada del estatus del repositorio
+
 >git add [NombreDelArchivo/Carpeta]
 Añade el/los archivo/s al area de staging
 Ejemplos
@@ -61,6 +64,12 @@ Añade los archivos en el área de staging al área del repositorio.
 >git log
 Lista todos los commits
 
+>git log --oneline
+Lista todos los commits de manera minimizada
+
+>git log -n [N]
+Lista los últimos N commits
+
 >git clone [RepoURL]
 Clona un repositorio
 
@@ -79,3 +88,10 @@ Cambia a la rama con el nombre especificado, si no existe la crea
 `git branch -d [NombreRama]`  
 Elimina una rama
 
+`git merge [NombreRama]`  
+Fusiona la rama en la que estás con la rama especificada
+
+
+
+`git diff`  
+Fusiona la rama en la que estás con la rama especificada
